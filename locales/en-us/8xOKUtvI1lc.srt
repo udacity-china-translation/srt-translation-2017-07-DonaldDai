@@ -1,0 +1,48 @@
+﻿1
+00:00:00,000 --> 00:00:03,359
+Arrow functions are awesome and can really clean up your code by
+
+2
+00:00:03,359 --> 00:00:06,599
+removing a lot of the unnecessary things like the function keyword,
+
+3
+00:00:06,599 --> 00:00:09,259
+the return keyword, and curly braces.
+
+4
+00:00:09,259 --> 00:00:10,519
+Get those things out of here.
+
+5
+00:00:10,519 --> 00:00:13,259
+Yeah. Who needs those things? But don't just go
+
+6
+00:00:13,259 --> 00:00:16,376
+converting all of your regular functions in the arrow functions just yet,
+
+7
+00:00:16,376 --> 00:00:18,734
+because there's a big gotcha with the arrow functions.
+
+8
+00:00:18,734 --> 00:00:23,100
+The way arrow functions handle "this" keyword is different from regular functions.
+
+9
+00:00:23,100 --> 00:00:26,640
+Wow. Yeah, I mean that's kind of important to know about.
+
+10
+00:00:26,640 --> 00:00:28,679
+A bit more than kind of important.
+
+11
+00:00:28,679 --> 00:00:30,570
+In fact, the next section is all about
+
+12
+00:00:30,570 --> 00:00:34,000
+arrow functions and "this" keyword. Go check it out.
+

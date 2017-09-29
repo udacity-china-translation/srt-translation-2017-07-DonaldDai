@@ -1,0 +1,100 @@
+﻿1
+00:00:00,000 --> 00:00:03,185
+Let's switch gears for a moment to talk about proxies.
+
+2
+00:00:03,185 --> 00:00:05,128
+The dictionary defines a proxy as...
+
+3
+00:00:05,128 --> 00:00:07,584
+Hey, I need to give this to Richard.
+
+4
+00:00:07,585 --> 00:00:09,740
+He's kind of busy right now.
+
+5
+00:00:09,740 --> 00:00:11,345
+Well, okay. So, can you sign that, please?
+
+6
+00:00:11,345 --> 00:00:15,800
+Yeah, sure.
+
+7
+00:00:15,800 --> 00:00:19,030
+Here we go.
+
+8
+00:00:19,030 --> 00:00:19,031
+Thank you.
+
+9
+00:00:19,030 --> 00:00:23,204
+Yeah. So the dictionary defines a proxy as something that represents someone else.
+
+10
+00:00:23,204 --> 00:00:25,494
+In ES6...
+
+11
+00:00:25,495 --> 00:00:27,940
+Hey, can I talk to Richard for a second?
+
+12
+00:00:27,940 --> 00:00:29,700
+Yeah, hold on.
+
+13
+00:00:29,699 --> 00:00:31,701
+Cool.
+
+14
+00:00:31,980 --> 00:00:34,869
+Okay.
+
+15
+00:00:34,869 --> 00:00:36,829
+He said he could be back in like five minutes.
+
+16
+00:00:36,829 --> 00:00:37,640
+Okay, yeah.
+
+17
+00:00:37,640 --> 00:00:39,990
+Okay. Where was I?
+
+18
+00:00:39,990 --> 00:00:42,130
+Oh, right.
+
+19
+00:00:42,130 --> 00:00:44,240
+Doing ES6 are JavaScript proxies.
+
+20
+00:00:44,240 --> 00:00:47,000
+A JavaScript proxy will let one object stand in for
+
+21
+00:00:47,000 --> 00:00:50,670
+another object to handle all the interactions for that other object.
+
+22
+00:00:50,670 --> 00:00:52,565
+The proxy can handle requests directly,
+
+23
+00:00:52,564 --> 00:00:54,859
+pass data back and forth to the target object,
+
+24
+00:00:54,859 --> 00:00:56,740
+and a whole bunch of other things.
+
+25
+00:00:56,740 --> 00:00:59,270
+Let's look at how you can create a proxy in JavaScript.
+

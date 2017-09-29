@@ -1,0 +1,178 @@
+﻿1
+00:00:00,500 --> 00:00:03,330
+One more cool little trick
+for customizing the shell--
+
+2
+00:00:03,330 --> 00:00:05,160
+this one is called aliases.
+
+3
+00:00:05,160 --> 00:00:08,195
+It's a way of making long shell
+commands shorter, because what
+
+4
+00:00:08,195 --> 00:00:10,320
+you really needed in the
+shell was for the commands
+
+5
+00:00:10,320 --> 00:00:12,030
+to be even shorter, right?
+
+6
+00:00:12,029 --> 00:00:13,529
+So the way aliases
+work is that you
+
+7
+00:00:13,529 --> 00:00:17,939
+use the alias command to give
+a short name, such as "ll,"
+
+8
+00:00:17,940 --> 00:00:21,510
+to a longer command,
+such as "ls -la."
+
+9
+00:00:21,510 --> 00:00:23,260
+It's just like this--
+
+10
+00:00:23,260 --> 00:00:29,280
+alias ll, equal sign, single
+quote, ls space hyphen la,
+
+11
+00:00:29,280 --> 00:00:30,660
+single quote.
+
+12
+00:00:30,660 --> 00:00:33,450
+Now just as when you're
+assigning variables,
+
+13
+00:00:33,450 --> 00:00:35,946
+the alias command doesn't
+want to see a bunch of spaces
+
+14
+00:00:35,945 --> 00:00:37,320
+on either side of
+the equal sign.
+
+15
+00:00:37,320 --> 00:00:39,509
+That will just give you
+a bunch of weird errors.
+
+16
+00:00:39,509 --> 00:00:40,859
+Don't do that.
+
+17
+00:00:40,859 --> 00:00:42,960
+After you create an
+alias, any time you
+
+18
+00:00:42,960 --> 00:00:47,039
+type the short command,
+like ll, the shell
+
+19
+00:00:47,039 --> 00:00:50,929
+will just run the
+long command, ls -la.
+
+20
+00:00:50,929 --> 00:00:54,200
+If you want to list all of
+the aliases that you have,
+
+21
+00:00:54,200 --> 00:00:57,444
+just run the alias
+command with no arguments.
+
+22
+00:00:57,444 --> 00:00:59,109
+Now one of the cool
+things about aliases
+
+23
+00:00:59,109 --> 00:01:02,359
+is that you can use them the
+same as regular commands.
+
+24
+00:01:02,359 --> 00:01:05,780
+You can do ls on a
+directory, and you can
+
+25
+00:01:05,780 --> 00:01:09,280
+do ll on a directory as well.
+
+26
+00:01:09,280 --> 00:01:10,989
+Any options you
+put after the alias
+
+27
+00:01:10,989 --> 00:01:13,599
+when you use it will just go
+on the end of the command.
+
+28
+00:01:13,599 --> 00:01:21,399
+So ll/user/bin gets turned
+into ls -la/user/bin.
+
+29
+00:01:21,400 --> 00:01:24,490
+Now this ll command will only
+last as long as this terminal
+
+30
+00:01:24,489 --> 00:01:25,745
+window is open.
+
+31
+00:01:25,745 --> 00:01:28,119
+If you want your aliases to
+be there every time you start
+
+32
+00:01:28,120 --> 00:01:32,250
+your shell, well, you put
+them in your .bash_profile.
+
+33
+00:01:32,250 --> 00:01:34,150
+Here are some examples
+of popular aliases
+
+34
+00:01:34,150 --> 00:01:36,612
+that I found looking around
+at what other people use.
+
+35
+00:01:36,611 --> 00:01:38,319
+This last one, I think,
+is pretty clever,
+
+36
+00:01:38,319 --> 00:01:41,469
+because sometimes people
+typo "sl" instead of "ls,"
+
+37
+00:01:41,469 --> 00:01:44,730
+and this one just automatically
+corrects it for them.
+

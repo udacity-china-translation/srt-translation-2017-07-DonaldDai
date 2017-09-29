@@ -1,0 +1,155 @@
+1
+00:00:00,000 --> 00:00:03,535
+So far, you've done a bunch of things with files and directories.
+
+2
+00:00:03,535 --> 00:00:06,080
+But where do files come from in the first place?
+
+3
+00:00:06,080 --> 00:00:07,625
+Well, they come from the web.
+
+4
+00:00:07,625 --> 00:00:10,680
+There's a shell command to download a file from the web.
+
+5
+00:00:10,680 --> 00:00:12,150
+That command is curl,
+
+6
+00:00:12,150 --> 00:00:15,015
+that stands for C URL,
+
+7
+00:00:15,015 --> 00:00:17,395
+as in see a web page.
+
+8
+00:00:17,395 --> 00:00:20,260
+Whoever named that, ha ha, yes, very funny.
+
+9
+00:00:20,260 --> 00:00:22,835
+You can use curl to get any web page,
+
+10
+00:00:22,835 --> 00:00:25,890
+but what it does is to show you the source code to
+
+11
+00:00:25,890 --> 00:00:29,330
+the page which is kind of cool but not always directly useful.
+
+12
+00:00:29,330 --> 00:00:32,665
+We try to get http://google.com,
+
+13
+00:00:32,665 --> 00:00:36,840
+it's actually showing us some HTML that really wants us to go someplace else.
+
+14
+00:00:36,840 --> 00:00:38,814
+You need to add a little option to curl,
+
+15
+00:00:38,814 --> 00:00:41,475
+curl dash big L means follow
+
+16
+00:00:41,475 --> 00:00:46,790
+redirects and then we'll see the source code to the actual google.com homepage.
+
+17
+00:00:46,790 --> 00:00:48,450
+Ha! there we go, this is
+
+18
+00:00:48,450 --> 00:00:51,265
+the compressed JavaScript source code to the google.com homepage.
+
+19
+00:00:51,265 --> 00:00:52,950
+It's got things in there like,
+
+20
+00:00:52,950 --> 00:00:56,255
+I'm Feeling Lucky and Google search.
+
+21
+00:00:56,255 --> 00:00:58,230
+This is a lot like what you'd see if you opened up
+
+22
+00:00:58,230 --> 00:01:01,230
+the View Source in the browser dev tools.
+
+23
+00:01:01,230 --> 00:01:03,430
+So, that's kind of handy for checking out web sites,
+
+24
+00:01:03,430 --> 00:01:08,850
+but curl is very useful for downloading files or pages by URL.
+
+25
+00:01:08,850 --> 00:01:12,870
+To get it to write to a file instead of displaying to the terminal,
+
+26
+00:01:12,870 --> 00:01:15,428
+we use the dash little o option.
+
+27
+00:01:15,428 --> 00:01:18,570
+We say, curl dash little o followed by
+
+28
+00:01:18,570 --> 00:01:22,495
+the file name that we'd like it to save under, like google.html.
+
+29
+00:01:22,495 --> 00:01:26,385
+This is actually a really common pattern for shell commands.
+
+30
+00:01:26,385 --> 00:01:29,340
+Start with the name of the command followed by
+
+31
+00:01:29,340 --> 00:01:32,574
+some options like dash little o google.html
+
+32
+00:01:32,574 --> 00:01:35,640
+and dash capital L and then followed
+
+33
+00:01:35,640 --> 00:01:40,095
+by the object that we actually want to operate on, like the URL.
+
+34
+00:01:40,095 --> 00:01:45,030
+We run this, curl will show a little progress message while it's downloading.
+
+35
+00:01:45,030 --> 00:01:47,910
+When it's finished, we just get our shell prompt back.
+
+36
+00:01:47,910 --> 00:01:50,250
+It's pretty common for Unix programs to not
+
+37
+00:01:50,250 --> 00:01:53,765
+display any logs or done message if they run successfully.
+
+38
+00:01:53,765 --> 00:01:56,080
+But it did run successfully.
+
+39
+00:01:56,080 --> 00:01:59,000
+And there's the file that it created, google.html.

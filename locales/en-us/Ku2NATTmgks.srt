@@ -1,0 +1,84 @@
+﻿1
+00:00:00,000 --> 00:00:03,363
+You've probably heard the term compiler before.
+
+2
+00:00:03,363 --> 00:00:05,339
+A compiler is a computer program that
+
+3
+00:00:05,339 --> 00:00:07,674
+takes a program written in some source code language,
+
+4
+00:00:07,674 --> 00:00:12,629
+let's say C++, and then converts it to a target language like machine code.
+
+5
+00:00:12,630 --> 00:00:16,795
+Running code through a compiler changes its level of abstraction,
+
+6
+00:00:16,795 --> 00:00:20,460
+how close it is to human readable code to machine runnable code.
+
+7
+00:00:20,460 --> 00:00:22,455
+So that's compiling, taking a source language
+
+8
+00:00:22,454 --> 00:00:24,508
+and converting it into a lower level language.
+
+9
+00:00:24,509 --> 00:00:27,545
+Transpiling is a subset of compiling.
+
+10
+00:00:27,545 --> 00:00:30,510
+So, it takes source code and converts it into target code.
+
+11
+00:00:30,510 --> 00:00:33,030
+Just like a compiler but the source code and
+
+12
+00:00:33,030 --> 00:00:35,969
+target code are at the same level of abstraction.
+
+13
+00:00:35,969 --> 00:00:38,399
+Basically, if the source code starts out as human
+
+14
+00:00:38,399 --> 00:00:42,210
+readable then the output language will also be human readable.
+
+15
+00:00:42,210 --> 00:00:44,100
+But why would we want this?
+
+16
+00:00:44,100 --> 00:00:46,679
+Well, we just saw that older browsers do not
+
+17
+00:00:46,679 --> 00:00:50,600
+fully support ES6 but they do support ES5 code.
+
+18
+00:00:50,600 --> 00:00:53,459
+This way we could write our JavaScript using ES6,
+
+19
+00:00:53,459 --> 00:00:59,559
+syntax and functionality and then use a transpiler to convert it from ES6 code to ES5.
+
+20
+00:00:59,558 --> 00:01:01,439
+So, we'll write code using the newest and
+
+21
+00:01:01,439 --> 00:01:05,000
+best but convert it so that it will run everywhere.
+

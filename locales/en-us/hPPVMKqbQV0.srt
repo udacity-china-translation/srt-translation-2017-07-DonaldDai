@@ -1,0 +1,83 @@
+1
+00:00:00,000 --> 00:00:02,530
+Now we know how to get files from off the web.
+
+2
+00:00:02,530 --> 00:00:05,040
+But what can we do with them once we have them?
+
+3
+00:00:05,040 --> 00:00:07,340
+Well, there's a shell command called cat
+
+4
+00:00:07,340 --> 00:00:10,250
+that just reads the file and outputs the contents.
+
+5
+00:00:10,250 --> 00:00:12,290
+Actually, it can read any number of files.
+
+6
+00:00:12,290 --> 00:00:14,465
+The name cat is short for Catenate
+
+7
+00:00:14,465 --> 00:00:19,725
+or Concatenate which means to run several things together.
+
+8
+00:00:19,725 --> 00:00:23,590
+So let's try that. Cat dictionary.txt.
+
+9
+00:00:23,590 --> 00:00:27,945
+Went straight to zucchinis and zwieback and zygote.
+
+10
+00:00:27,945 --> 00:00:30,685
+That's not very useful if we wanted to see the top of the file.
+
+11
+00:00:30,685 --> 00:00:34,550
+It just blasted the file at our terminal so quick that it went right to the end.
+
+12
+00:00:34,550 --> 00:00:36,575
+Fortunately, there's another program,
+
+13
+00:00:36,575 --> 00:00:40,255
+less, which shows us less of the file at once.
+
+14
+00:00:40,255 --> 00:00:44,120
+Specifically, it'll just show you one screenful of the file at a time.
+
+15
+00:00:44,120 --> 00:00:50,880
+You press space to scroll down or you can use the arrow keys.
+
+16
+00:00:50,880 --> 00:00:56,760
+It has some other commands like B to go back or slash to search.
+
+17
+00:00:56,760 --> 00:00:59,080
+When you're done in less,
+
+18
+00:00:59,080 --> 00:01:01,160
+you can press Q to quit.
+
+19
+00:01:01,160 --> 00:01:02,860
+And less is really handy.
+
+20
+00:01:02,860 --> 00:01:05,680
+It's used internally by a lot of other programs that might
+
+21
+00:01:05,680 --> 00:01:09,330
+sometimes need to display a lot of output and give you a chance to catch up.

@@ -1,0 +1,116 @@
+﻿1
+00:00:00,000 --> 00:00:02,290
+So, what is iteration?
+
+2
+00:00:02,290 --> 00:00:06,785
+Probably, the best way to describe it is by looking at a normal for loop.
+
+3
+00:00:06,785 --> 00:00:08,039
+When you write a for loop,
+
+4
+00:00:08,039 --> 00:00:10,319
+you provide the loop with a variable.
+
+5
+00:00:10,320 --> 00:00:13,290
+This variable is typically the letter i because it's being
+
+6
+00:00:13,289 --> 00:00:16,890
+used as an iterator to keep track of your place in the loop.
+
+7
+00:00:16,890 --> 00:00:19,820
+When you're looping over something like an array,
+
+8
+00:00:19,820 --> 00:00:22,143
+this iterator works like an index,
+
+9
+00:00:22,143 --> 00:00:26,005
+letting you access each item in the array one after the other.
+
+10
+00:00:26,004 --> 00:00:29,608
+This process of getting the next item one after the other is iteration,
+
+11
+00:00:29,609 --> 00:00:31,590
+and we've been using it for a long time.
+
+12
+00:00:31,589 --> 00:00:33,113
+So, why even bring this up?
+
+13
+00:00:33,113 --> 00:00:35,866
+It sounds like iteration has always been a part of JavaScript.
+
+14
+00:00:35,866 --> 00:00:37,919
+What's new in ES6?
+
+15
+00:00:37,920 --> 00:00:39,954
+Well, there are a couple of things.
+
+16
+00:00:39,954 --> 00:00:42,239
+First, there's a new iterable interface that
+
+17
+00:00:42,240 --> 00:00:45,190
+allows us to customize how objects are iterated,
+
+18
+00:00:45,189 --> 00:00:47,434
+so, basically, how they're looped over.
+
+19
+00:00:47,435 --> 00:00:51,770
+We'll look at this more closely in lesson three when we talk about symbols.
+
+20
+00:00:51,770 --> 00:00:54,086
+The second thing is there's a new loop.
+
+21
+00:00:54,085 --> 00:00:56,174
+It's called the for...of loop,
+
+22
+00:00:56,174 --> 00:01:00,179
+which loops exclusively over iterable objects.
+
+23
+00:01:00,179 --> 00:01:01,844
+Now, when I say iterable objects,
+
+24
+00:01:01,844 --> 00:01:05,939
+I just mean an object that has implemented this new iterable interface.
+
+25
+00:01:05,939 --> 00:01:08,780
+See here the for and the of.
+
+26
+00:01:08,780 --> 00:01:10,769
+Now this might sound a little bit fuzzy,
+
+27
+00:01:10,769 --> 00:01:14,988
+so let's actually take a step back and look at some code examples of traditional for
+
+28
+00:01:14,989 --> 00:01:17,399
+loops and then see how the new for...of
+
+29
+00:01:17,399 --> 00:01:20,070
+loop really stands out as your best option for looping.
+

@@ -1,0 +1,249 @@
+﻿1
+00:00:00,620 --> 00:00:03,229
+Now, we can do a lot more with
+files then just look at them,
+
+2
+00:00:03,229 --> 00:00:04,849
+move them, and delete them.
+
+3
+00:00:04,849 --> 00:00:06,830
+For instance, let's
+take that dictionary
+
+4
+00:00:06,830 --> 00:00:08,870
+file you downloaded
+earlier and use it
+
+5
+00:00:08,869 --> 00:00:11,570
+to see if a word is
+in the dictionary.
+
+6
+00:00:11,570 --> 00:00:13,339
+There's a Shell
+command called grep
+
+7
+00:00:13,339 --> 00:00:15,560
+that knows how to search
+a text file for lines
+
+8
+00:00:15,560 --> 00:00:17,510
+with particular contents.
+
+9
+00:00:17,510 --> 00:00:19,790
+If you give it a
+word, such as shell,
+
+10
+00:00:19,789 --> 00:00:23,230
+and a file name
+like dictionary.txt,
+
+11
+00:00:23,230 --> 00:00:26,330
+it will read the file
+and output all the lines
+
+12
+00:00:26,329 --> 00:00:28,069
+that contain that word.
+
+13
+00:00:28,070 --> 00:00:30,920
+But what if, as in this case,
+there are more lines than we
+
+14
+00:00:30,920 --> 00:00:32,570
+can see at once.
+
+15
+00:00:32,570 --> 00:00:35,060
+Well, one thing we
+can do is to ask
+
+16
+00:00:35,060 --> 00:00:39,560
+the Shell to send the output
+of grep into the less command.
+
+17
+00:00:39,560 --> 00:00:44,780
+You can do this with the pipe
+or the vertical bar character.
+
+18
+00:00:44,780 --> 00:00:46,289
+What's going on here?
+
+19
+00:00:46,289 --> 00:00:49,640
+Well, the grep program
+reads the input file
+
+20
+00:00:49,640 --> 00:00:52,160
+and prints out any lines
+that match the pattern.
+
+21
+00:00:52,159 --> 00:00:53,689
+But the Shell has
+arranged things
+
+22
+00:00:53,689 --> 00:00:56,780
+so that the output doesn't
+go directly to the terminal.
+
+23
+00:00:56,780 --> 00:00:59,929
+Instead it gets sent
+into the less program,
+
+24
+00:00:59,929 --> 00:01:02,149
+which displays those lines
+of the terminal one page
+
+25
+00:01:02,149 --> 00:01:03,350
+at a time.
+
+26
+00:01:03,350 --> 00:01:05,120
+To read this command
+out loud, you'd
+
+27
+00:01:05,120 --> 00:01:09,890
+say grep for shell in
+dictionary.txt and pipe
+
+28
+00:01:09,890 --> 00:01:11,659
+it to less.
+
+29
+00:01:11,659 --> 00:01:14,614
+Now, grep can also operate on
+input from another program.
+
+30
+00:01:18,519 --> 00:01:22,450
+For instance, you can pull a
+file from the web using cURL
+
+31
+00:01:22,450 --> 00:01:26,320
+and immediately grep it
+for a particular pattern
+
+32
+00:01:26,319 --> 00:01:28,269
+without having to save
+it to a file first.
+
+33
+00:01:30,959 --> 00:01:33,659
+The output from
+this cURL command
+
+34
+00:01:33,659 --> 00:01:36,810
+gets fed into this grep
+command as its input,
+
+35
+00:01:36,810 --> 00:01:40,490
+instead of grep
+reading from a file.
+
+36
+00:01:40,489 --> 00:01:44,780
+As you can see, sometimes
+some of the output from cURL,
+
+37
+00:01:44,780 --> 00:01:47,540
+like this progress meter,
+gets mixed in with some
+
+38
+00:01:47,540 --> 00:01:48,659
+of the output from grep--
+
+39
+00:01:48,659 --> 00:01:50,075
+so that can be a
+little confusing.
+
+40
+00:01:50,075 --> 00:01:52,570
+They're actually not
+getting mixed to the Shell,
+
+41
+00:01:52,569 --> 00:01:54,319
+but they're getting
+mixed on our terminal.
+
+42
+00:01:54,319 --> 00:01:56,750
+If we sent this to a
+file, it would be fine.
+
+43
+00:01:56,750 --> 00:01:58,129
+It wouldn't get mixed in.
+
+44
+00:01:58,129 --> 00:02:00,829
+Now if you just wanted to know
+how many matches there are,
+
+45
+00:02:00,829 --> 00:02:04,429
+like how many words there are
+that contain the string fish,
+
+46
+00:02:04,430 --> 00:02:06,870
+there are a couple of
+different ways you can do that.
+
+47
+00:02:06,870 --> 00:02:09,469
+One of them is to pipe
+the output of grep
+
+48
+00:02:09,469 --> 00:02:13,129
+into the word count
+program, or wc,
+
+49
+00:02:13,129 --> 00:02:16,689
+and ask it to count lines
+with its dash little l option.
+
+50
+00:02:16,689 --> 00:02:19,859
+There we got the number 105.
+
+51
+00:02:19,860 --> 00:02:26,010
+Another way is to give grep the
+option dash little c for count.
+
+52
+00:02:26,009 --> 00:02:28,310
+And there's the same 105.
+

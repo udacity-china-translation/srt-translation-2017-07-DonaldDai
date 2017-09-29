@@ -1,0 +1,297 @@
+1
+00:00:00,460 --> 00:00:02,670
+So now that we have the dream solution,
+and
+
+2
+00:00:02,670 --> 00:00:06,300
+we all decide it's best,
+we move to prototyping, right?
+
+3
+00:00:06,300 --> 00:00:07,490
+>> That's right.
+
+4
+00:00:07,490 --> 00:00:10,870
+Prototyping is a wonderful
+way to test your ideas.
+
+5
+00:00:10,870 --> 00:00:15,340
+In fact, we want to make prototypes
+that are real enough to feel, so
+
+6
+00:00:15,340 --> 00:00:19,200
+that we can test them with users,
+and that's all that's required.
+
+7
+00:00:19,200 --> 00:00:21,650
+Prototyping can take many forms.
+
+8
+00:00:21,650 --> 00:00:26,775
+The simplest is to do a paper prototype
+where you can quickly gather feedback.
+
+9
+00:00:26,775 --> 00:00:31,367
+One level up from that is to work on
+digital designs that are mid fidelity or
+
+10
+00:00:31,367 --> 00:00:32,417
+high fidelity.
+
+11
+00:00:32,417 --> 00:00:36,532
+The higher the fidelity the easier it is
+to test and to get feedback from users
+
+12
+00:00:36,532 --> 00:00:40,533
+because they're looking something
+that's a little bit more polished.
+
+13
+00:00:40,533 --> 00:00:44,980
+A next level of prototyping is
+actually creating physical prototypes.
+
+14
+00:00:44,980 --> 00:00:50,424
+When we work on something like Project
+Glass at Google or Project Moon, it's
+
+15
+00:00:50,424 --> 00:00:56,221
+not about software always, it's about
+what does the physical device look like?
+
+16
+00:00:56,221 --> 00:01:00,866
+So that's when it's useful
+to have materials that
+
+17
+00:01:00,866 --> 00:01:05,196
+help you create a quick
+shape of a general idea.
+
+18
+00:01:05,196 --> 00:01:07,958
+Other prioritizes we
+have made include video.
+
+19
+00:01:07,958 --> 00:01:10,784
+In fact, if you try to explain
+the product to some one,
+
+20
+00:01:10,784 --> 00:01:13,002
+creating a video is super, super useful.
+
+21
+00:01:13,002 --> 00:01:14,280
+>> Yeah, Dropbox did that.
+
+22
+00:01:14,280 --> 00:01:14,905
+>> That's right.
+
+23
+00:01:14,905 --> 00:01:15,464
+>> Yeah.
+
+24
+00:01:15,464 --> 00:01:18,636
+>> [LAUGH] The little how to videos
+that a lot of companies use to
+
+25
+00:01:18,636 --> 00:01:22,570
+describe their services are really
+useful in the design phase.
+
+26
+00:01:22,570 --> 00:01:27,530
+If you make it straight on, even if
+it's shot with a little mobile phone,
+
+27
+00:01:27,530 --> 00:01:30,970
+and the users are the friends
+that you're working with.
+
+28
+00:01:30,970 --> 00:01:34,840
+That can be sufficient to explain the
+idea to a user, or to an investor, and
+
+29
+00:01:34,840 --> 00:01:36,090
+to test it.
+
+30
+00:01:36,090 --> 00:01:40,960
+If you want the high quality prototype,
+you need to spend longer developing it.
+
+31
+00:01:40,960 --> 00:01:42,400
+>> So I can actually code it.
+
+32
+00:01:42,400 --> 00:01:43,040
+>> That's right.
+
+33
+00:01:43,040 --> 00:01:47,140
+I think coding a prototype is a great
+idea, so some people are able
+
+34
+00:01:47,140 --> 00:01:51,730
+to really sprint, and within two days,
+start to already call the prototype.
+
+35
+00:01:51,730 --> 00:01:54,000
+And then you can have
+an interactive demo.
+
+36
+00:01:54,000 --> 00:01:56,760
+Or some people take maybe four or
+five days,
+
+37
+00:01:56,760 --> 00:01:59,480
+depending on how complex
+the solution is.
+
+38
+00:01:59,480 --> 00:02:01,990
+So the duration of the prototyping
+
+39
+00:02:01,990 --> 00:02:05,300
+phase is usually what determines
+the duration of the sprint.
+
+40
+00:02:05,300 --> 00:02:08,310
+This is the key aspect in which
+actually the work is getting made.
+
+41
+00:02:08,310 --> 00:02:11,350
+If you're someone who loves to code,
+who loves to design,
+
+42
+00:02:11,350 --> 00:02:15,270
+this is the phase that
+you really get to shine.
+
+43
+00:02:15,270 --> 00:02:18,920
+And if you're looking for a low
+fidelity prototype, a short sprint,
+
+44
+00:02:18,920 --> 00:02:20,320
+a few hours might be sufficient.
+
+45
+00:02:20,320 --> 00:02:24,160
+If you want something that's high
+fidelity, or requires a demo or
+
+46
+00:02:24,160 --> 00:02:28,280
+a video, you're better advised to have
+a whole week of the team's time so
+
+47
+00:02:28,280 --> 00:02:29,760
+you can make something beautiful.
+
+48
+00:02:29,760 --> 00:02:33,670
+>> How do I know which to choose, if I
+choose a high fidelity or low fidelity?
+
+49
+00:02:33,670 --> 00:02:34,253
+What is the best?
+
+50
+00:02:34,253 --> 00:02:38,741
+>> Okay, so, if you're working on a new
+product, it's probably best to shoot for
+
+51
+00:02:38,741 --> 00:02:39,804
+medium fidelity.
+
+52
+00:02:39,804 --> 00:02:44,580
+That means that you're not looking
+at paper prototypes necessarily.
+
+53
+00:02:44,580 --> 00:02:46,350
+You might have some early wire frames,
+
+54
+00:02:46,350 --> 00:02:48,980
+and that you're starting
+to put some color on them.
+
+55
+00:02:48,980 --> 00:02:52,640
+Or that you also use Keynote or
+a quick prototyping tool that
+
+56
+00:02:52,640 --> 00:02:58,270
+your engineers know how to use in
+order to bring some life to the ideas.
+
+57
+00:02:58,270 --> 00:03:03,410
+We believe in teams choosing
+their own prototyping tools.
+
+58
+00:03:03,410 --> 00:03:06,000
+There's a lot that's
+available on the market, and
+
+59
+00:03:06,000 --> 00:03:09,090
+the right ones are the ones
+your team loves to use.
+
+60
+00:03:09,090 --> 00:03:12,114
+If you're wondering where to start,
+Sketch is a really great example.
+
+61
+00:03:12,114 --> 00:03:15,505
+So is Adobe Suite, although it does
+take a little bit of time to learn.
+
+62
+00:03:15,505 --> 00:03:16,537
+And then Keynote and
+
+63
+00:03:16,537 --> 00:03:19,700
+Google Sites are also really
+useful in prototyping quickly.

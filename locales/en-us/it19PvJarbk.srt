@@ -1,0 +1,102 @@
+﻿1
+00:00:00,499 --> 00:00:04,019
+OK, so now maybe we've made a
+bunch of files and directories
+
+2
+00:00:04,019 --> 00:00:07,929
+and stuff, and we want to clean
+them up to delete some things.
+
+3
+00:00:07,929 --> 00:00:10,109
+Well, the Shell command
+for deleting files
+
+4
+00:00:10,109 --> 00:00:13,279
+is rm, which is
+short for remove.
+
+5
+00:00:13,279 --> 00:00:15,149
+rm works the same
+as you'd probably
+
+6
+00:00:15,150 --> 00:00:17,129
+expect from other
+Shell commands,
+
+7
+00:00:17,129 --> 00:00:20,399
+you just give it the name of the
+file, or the names of the files
+
+8
+00:00:20,399 --> 00:00:22,250
+that you want to remove.
+
+9
+00:00:22,250 --> 00:00:25,199
+Now, I've got to give
+you a safety warning.
+
+10
+00:00:25,199 --> 00:00:29,939
+In your GUI, you've probably
+got a trash can or recycle bin
+
+11
+00:00:29,940 --> 00:00:32,009
+where files go when you
+want to get rid of them,
+
+12
+00:00:32,009 --> 00:00:34,799
+but you can take them back
+out if you change your mind.
+
+13
+00:00:34,799 --> 00:00:37,289
+The rm command does
+not work like this.
+
+14
+00:00:37,289 --> 00:00:39,539
+It just removes the files.
+
+15
+00:00:39,539 --> 00:00:42,390
+If you want a
+little more warning,
+
+16
+00:00:42,390 --> 00:00:46,140
+maybe you're afraid you
+might remove a valuable file
+
+17
+00:00:46,140 --> 00:00:50,549
+by mistake, well, you
+can use the option -I.
+
+18
+00:00:50,549 --> 00:00:53,250
+The I is for interactive,
+which will prompt you
+
+19
+00:00:53,250 --> 00:00:56,539
+for every file it's
+going to remove.
+
+20
+00:00:56,539 --> 00:00:59,049
+Now for directories, there's
+a different command, which
+
+21
+00:00:59,049 --> 00:01:03,097
+is rmdir for remove directory.
+

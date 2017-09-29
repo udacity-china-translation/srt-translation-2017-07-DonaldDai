@@ -1,0 +1,48 @@
+﻿1
+00:00:00,000 --> 00:00:02,484
+So we just looked at Sets and WeakSets,
+
+2
+00:00:02,484 --> 00:00:05,459
+but I want to turn your attention towards Maps and WeakMaps.
+
+3
+00:00:05,459 --> 00:00:09,990
+Maps and WeakMaps, share a lot of things in common with Sets and WeakSets.
+
+4
+00:00:09,990 --> 00:00:12,405
+They both have similar properties and methods.
+
+5
+00:00:12,404 --> 00:00:15,734
+Maps and Sets are both iterable which means you can loop over them.
+
+6
+00:00:15,734 --> 00:00:20,149
+And WeakMaps and WeakSets don't prevent objects from being garbage collected.
+
+7
+00:00:20,149 --> 00:00:24,029
+However, Maps are unique because they're collections of key-value pairs,
+
+8
+00:00:24,030 --> 00:00:27,000
+whereas Sets are collections of unique values.
+
+9
+00:00:27,000 --> 00:00:29,550
+You could say that Sets are to arrays,
+
+10
+00:00:29,550 --> 00:00:31,670
+as Maps are to objects.
+
+11
+00:00:31,670 --> 00:00:34,620
+Yeah, that's good. In this next section,
+
+12
+00:00:34,619 --> 00:00:38,129
+we'll look at how you can create and use Maps and WeakMaps.
+

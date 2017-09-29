@@ -1,0 +1,37 @@
+1
+00:00:00,350 --> 00:00:03,980
+In the last lesson, you learned how to
+plan and execute a design sprint so
+
+2
+00:00:03,980 --> 00:00:06,860
+you can test prototypes with real users.
+
+3
+00:00:06,860 --> 00:00:09,050
+>> In this lesson you'll
+learn about metrics and
+
+4
+00:00:09,050 --> 00:00:11,830
+how can you tie them to
+improve your products?
+
+5
+00:00:11,830 --> 00:00:14,680
+You'll use these metrics to
+drive business decisions and
+
+6
+00:00:14,680 --> 00:00:18,670
+prioritize what you want to work on,
+on the next design sprint.
+
+7
+00:00:18,670 --> 00:00:21,550
+>> To get started, let's look at a
+couple different metrics that you might
+
+8
+00:00:21,550 --> 00:00:22,420
+be interested in measuring.

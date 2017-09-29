@@ -1,0 +1,233 @@
+﻿1
+00:00:00,500 --> 00:00:02,870
+OK, let's talk about Windows.
+
+2
+00:00:02,870 --> 00:00:05,900
+If you're using a Mac or
+Linux or some other Unix-based
+
+3
+00:00:05,900 --> 00:00:08,600
+system, you can just skip
+this page completely.
+
+4
+00:00:08,599 --> 00:00:11,640
+Just go on to the next page.
+
+5
+00:00:11,640 --> 00:00:12,140
+Great.
+
+6
+00:00:12,140 --> 00:00:14,600
+So everyone who's watching,
+you're on Windows, right?
+
+7
+00:00:14,599 --> 00:00:15,500
+Cool.
+
+8
+00:00:15,500 --> 00:00:16,969
+So what we want
+to do for you now
+
+9
+00:00:16,969 --> 00:00:19,820
+is to get you a
+Unix-style shell.
+
+10
+00:00:19,820 --> 00:00:22,250
+Well, what do I mean
+by "Unix-style"?
+
+11
+00:00:22,250 --> 00:00:24,740
+Well, I mean it's compatible
+with the shells used
+
+12
+00:00:24,739 --> 00:00:26,750
+on Linux and other
+Unix-like systems,
+
+13
+00:00:26,750 --> 00:00:29,870
+which is what the majority
+of web servers run on.
+
+14
+00:00:29,870 --> 00:00:32,990
+Windows comes from a different
+lineage of operating systems
+
+15
+00:00:32,990 --> 00:00:35,690
+than Linux, so it takes
+a little extra effort
+
+16
+00:00:35,689 --> 00:00:38,390
+to get Windows compatible
+with the rest of the world.
+
+17
+00:00:38,390 --> 00:00:40,310
+But that's OK.
+
+18
+00:00:40,310 --> 00:00:42,770
+The most popular Unix-style
+shell for Windows
+
+19
+00:00:42,770 --> 00:00:46,550
+is the one that comes with the
+Git Version Control software.
+
+20
+00:00:46,549 --> 00:00:48,029
+It's called Git Bash.
+
+21
+00:00:48,030 --> 00:00:51,050
+And to install it,
+we'll install Git.
+
+22
+00:00:51,049 --> 00:00:57,739
+So go to git.scm.com
+and download Git.
+
+23
+00:00:57,740 --> 00:01:00,579
+I'm just going to click
+through this installer.
+
+24
+00:01:00,579 --> 00:01:01,809
+Next.
+
+25
+00:01:01,810 --> 00:01:03,920
+Sure.
+
+26
+00:01:03,920 --> 00:01:06,480
+These all sound great.
+
+27
+00:01:06,480 --> 00:01:08,040
+I'll do that.
+
+28
+00:01:08,040 --> 00:01:10,140
+When I get to this page
+about adjusting your path
+
+29
+00:01:10,140 --> 00:01:14,590
+environment, I'm just going to
+accept the default. Default's
+
+30
+00:01:14,590 --> 00:01:16,150
+good here, too.
+
+31
+00:01:16,150 --> 00:01:18,400
+And now it's asking me
+what terminal emulator
+
+32
+00:01:18,400 --> 00:01:20,565
+I want to use with Git Bash.
+
+33
+00:01:20,564 --> 00:01:25,310
+I'm going to choose the default
+here as well, which is MinTTY.
+
+34
+00:01:25,310 --> 00:01:27,490
+Defaults are good there, too.
+
+35
+00:01:27,489 --> 00:01:29,679
+Just going to wait
+for that to install.
+
+36
+00:01:29,680 --> 00:01:33,010
+This can take a few minutes,
+but we're going to speed this up
+
+37
+00:01:33,010 --> 00:01:35,469
+so you don't have to
+watch the whole time.
+
+38
+00:01:35,469 --> 00:01:37,819
+You'll be seeing enough of
+it on your own computer.
+
+39
+00:01:37,819 --> 00:01:38,319
+OK.
+
+40
+00:01:38,319 --> 00:01:39,589
+We're done.
+
+41
+00:01:39,590 --> 00:01:43,060
+And now we have a
+program called Git Bash.
+
+42
+00:01:43,060 --> 00:01:44,040
+Let's run that.
+
+43
+00:01:44,040 --> 00:01:46,400
+And here we go a--
+terminal window.
+
+44
+00:01:46,400 --> 00:01:46,900
+Hmm.
+
+45
+00:01:46,900 --> 00:01:48,460
+It's a little bit hard to read.
+
+46
+00:01:48,459 --> 00:01:49,994
+The font's kind of small.
+
+47
+00:01:49,995 --> 00:01:52,030
+I'm going to go in
+here and change that.
+
+48
+00:02:02,540 --> 00:02:04,211
+Ah, much better.
+
+49
+00:02:04,210 --> 00:02:04,709
+Great.
+
+50
+00:02:04,709 --> 00:02:07,049
+Now that that's set up, let's
+take a look at what we've
+
+51
+00:02:07,049 --> 00:02:09,198
+got going on here.
+

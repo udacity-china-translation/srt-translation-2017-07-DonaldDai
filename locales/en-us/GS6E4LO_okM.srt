@@ -1,0 +1,108 @@
+1
+00:00:00,330 --> 00:00:04,910
+We're here with Nadya Direkova,
+a staff designer at Google and a design
+
+2
+00:00:04,910 --> 00:00:08,520
+print master will run more design print
+more than anyone else in the company.
+
+3
+00:00:08,520 --> 00:00:09,384
+Thank you for joining us.
+
+4
+00:00:09,384 --> 00:00:11,840
+>> Thank you for having me.
+
+5
+00:00:11,840 --> 00:00:15,080
+>> So, when should an entrepreneur
+think of design and
+
+6
+00:00:15,080 --> 00:00:17,780
+user experience when
+building their product?
+
+7
+00:00:17,780 --> 00:00:19,640
+>> That's a great question.
+
+8
+00:00:19,640 --> 00:00:23,060
+The answer is right away, I don't
+believe that there is a successful
+
+9
+00:00:23,060 --> 00:00:25,840
+product that separate
+from being a product or
+
+10
+00:00:25,840 --> 00:00:27,840
+something that's carefully designed.
+
+11
+00:00:27,840 --> 00:00:30,750
+So as soon as someone's thinking
+about starting a company,
+
+12
+00:00:30,750 --> 00:00:34,140
+it's useful to think about what is it
+they want to bring to the world, and
+
+13
+00:00:34,140 --> 00:00:35,800
+that starts the design process.
+
+14
+00:00:37,250 --> 00:00:39,500
+>> Right, and
+when you don't have a designer or
+
+15
+00:00:39,500 --> 00:00:41,150
+you can't afford
+a designer what do you do?
+
+16
+00:00:42,360 --> 00:00:46,369
+>> So we'd like to believe that anyone
+can have some of the skills that
+
+17
+00:00:46,369 --> 00:00:48,140
+a designer has.
+
+18
+00:00:48,140 --> 00:00:52,390
+Note the skills in Photoshop
+actually rendering beautiful mocks.
+
+19
+00:00:52,390 --> 00:00:55,290
+But the kinds of questions
+that the designer asks,
+
+20
+00:00:55,290 --> 00:00:58,730
+we're hoping to cover some of
+these today so that you can learn,
+
+21
+00:00:58,730 --> 00:01:03,230
+what are the design skills that can
+help you quickly tackle your product and
+
+22
+00:01:03,230 --> 00:01:06,880
+the chief results with your team,
+even if you're not a designer.
+
+23
+00:01:06,880 --> 00:01:10,090
+>> You'll hear more about design
+spreads from Nadia in the next lesson.

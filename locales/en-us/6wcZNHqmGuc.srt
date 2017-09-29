@@ -1,0 +1,60 @@
+﻿1
+00:00:00,000 --> 00:00:02,565
+We've reached roughly the halfway point of this lesson,
+
+2
+00:00:02,565 --> 00:00:04,469
+and we want to check back in on your progress.
+
+3
+00:00:04,469 --> 00:00:08,864
+So far, you covered new ways to declare variables using let and const,
+
+4
+00:00:08,865 --> 00:00:11,690
+how to write template literals for easier string interpolation,
+
+5
+00:00:11,689 --> 00:00:13,394
+destructuring arrays and objects,
+
+6
+00:00:13,394 --> 00:00:16,460
+and some shorthand ways for initializing objects.
+
+7
+00:00:16,460 --> 00:00:19,320
+At this point, we hope you're starting to see how these improvements to
+
+8
+00:00:19,320 --> 00:00:22,740
+the JavaScript language will impact the way you write code moving forward.
+
+9
+00:00:22,739 --> 00:00:26,963
+The remainder of this lesson will focus on the addition of the for... of loop,
+
+10
+00:00:26,963 --> 00:00:29,519
+the rest parameter, and the spread operator.
+
+11
+00:00:29,519 --> 00:00:30,969
+However, before you move on,
+
+12
+00:00:30,969 --> 00:00:33,973
+there's one more thing we want to mention - iteration.
+
+13
+00:00:33,973 --> 00:00:37,889
+Iteration is a new mechanism for looping through data in ES6.
+
+14
+00:00:37,890 --> 00:00:40,079
+Understanding what iteration is and how it
+
+15
+00:00:40,079 --> 00:00:43,000
+works will be important for completing the rest of this lesson.
+

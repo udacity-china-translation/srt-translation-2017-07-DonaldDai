@@ -1,0 +1,88 @@
+﻿1
+00:00:00,000 --> 00:00:03,240
+Promises are an incredibly powerful addition to the language,
+
+2
+00:00:03,240 --> 00:00:06,980
+and a ton of both existing and future changes make use of them.
+
+3
+00:00:06,980 --> 00:00:10,375
+So being able to work with and write JavaScript promises is vital.
+
+4
+00:00:10,375 --> 00:00:12,060
+They're so important, we've actually created
+
+5
+00:00:12,060 --> 00:00:15,470
+a standalone course dedicated to just JavaScript Promises.
+
+6
+00:00:15,470 --> 00:00:17,910
+Hang on a second. Hey Cameron.
+
+7
+00:00:17,910 --> 00:00:19,498
+Hey Richard. It's good to see you.
+
+8
+00:00:19,498 --> 00:00:22,439
+We were talking about JavaScript Promises and we told
+
+9
+00:00:22,440 --> 00:00:25,267
+them about our dedicated course on JavaScript Promises,
+
+10
+00:00:25,266 --> 00:00:28,184
+and we thought, did you want to talk about that a little bit?
+
+11
+00:00:28,184 --> 00:00:32,295
+I made a course on Promises – they're awesome – and you should go take it.
+
+12
+00:00:32,295 --> 00:00:36,465
+And the reason is is that Promises make it so much easier to do asynchronous code.
+
+13
+00:00:36,465 --> 00:00:39,840
+With Promises, your code's going to be easier to read, easier to write,
+
+14
+00:00:39,840 --> 00:00:41,370
+and most importantly as you all know,
+
+15
+00:00:41,369 --> 00:00:43,609
+it's gonna be a lot easier to debug.
+
+16
+00:00:43,609 --> 00:00:44,789
+And while you're working on this class,
+
+17
+00:00:44,789 --> 00:00:48,259
+you'll be also building an app called the Exoplanet Explore.
+
+18
+00:00:48,259 --> 00:00:50,579
+This is a really cool app because it helps people learn about
+
+19
+00:00:50,579 --> 00:00:53,994
+planets around other stars in our galaxy, real planets.
+
+20
+00:00:53,994 --> 00:00:56,309
+So it's really amazing and it's really fun and you
+
+21
+00:00:56,310 --> 00:00:58,963
+should definitely check out the course if you want to master Promises.
+
+22
+00:00:58,963 --> 00:01:01,000
+You'll find a link to the course below.
+

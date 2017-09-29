@@ -1,0 +1,136 @@
+﻿1
+00:00:00,000 --> 00:00:02,759
+Promises are an interesting concept and solve
+
+2
+00:00:02,759 --> 00:00:06,509
+some tricky problems that we've had in previous versions of JavaScript.
+
+3
+00:00:06,509 --> 00:00:11,250
+Using a JavaScript Promise is the new way to handle asynchronous requests.
+
+4
+00:00:11,250 --> 00:00:13,154
+And just like most changes in ES6,
+
+5
+00:00:13,154 --> 00:00:16,379
+it's an improvement on the way we've structured code in the past.
+
+6
+00:00:16,379 --> 00:00:17,824
+Let's look at an example.
+
+7
+00:00:17,824 --> 00:00:20,809
+James here has been waiting patiently to take my order.
+
+8
+00:00:20,809 --> 00:00:22,333
+So if I say, "Hey,
+
+9
+00:00:22,333 --> 00:00:23,769
+can I get an ice cream sundae.".
+
+10
+00:00:23,769 --> 00:00:26,859
+Finally, I thought you'd never ask.
+
+11
+00:00:26,859 --> 00:00:27,609
+Great.
+
+12
+00:00:27,609 --> 00:00:30,375
+So I've made my request and he'll give me
+
+13
+00:00:30,375 --> 00:00:33,704
+this to represent that he'll return with something in the future.
+
+14
+00:00:33,704 --> 00:00:37,814
+But should I have to wait right here for him to come back and give it to me?
+
+15
+00:00:37,814 --> 00:00:42,772
+While he's making it can I get back to work on my next project?
+
+16
+00:00:42,773 --> 00:00:45,680
+Then when he's finished with the ice cream he
+
+17
+00:00:45,679 --> 00:00:49,515
+can notify me that it's ready and I can pick up where I left off.
+
+18
+00:00:49,515 --> 00:00:51,410
+Richard your sundae is ready.
+
+19
+00:00:51,409 --> 00:00:52,309
+Great.
+
+20
+00:00:52,310 --> 00:00:54,355
+Can I get some hot fudge,
+
+21
+00:00:54,354 --> 00:00:57,029
+some caramel, some whipped cream and cherry?
+
+22
+00:00:57,030 --> 00:00:58,020
+Sure.
+
+23
+00:00:58,020 --> 00:01:00,165
+Thanks.
+
+24
+00:01:00,164 --> 00:01:01,795
+Now I'm back to waiting again.
+
+25
+00:01:01,795 --> 00:01:03,890
+Going back and forth for making a request for
+
+26
+00:01:03,890 --> 00:01:07,015
+something than the downtime while that request is being fulfilled.
+
+27
+00:01:07,015 --> 00:01:10,250
+Being able to do work during that downtime and then being notified
+
+28
+00:01:10,250 --> 00:01:13,930
+that my request is finished is what Promises do for us in JavaScript.
+
+29
+00:01:13,930 --> 00:01:16,395
+It handles that "do this thing now" then
+
+30
+00:01:16,394 --> 00:01:18,859
+notify me when it's done so I can pick up where I left off.
+
+31
+00:01:18,859 --> 00:01:21,019
+Your sundae is ready.
+
+32
+00:01:21,019 --> 00:01:21,319
+Thanks.
+
+33
+00:01:21,319 --> 00:01:24,844
+It looks awesome. Here you Go.
+
+34
+00:01:24,844 --> 00:01:28,079
+Let's take a look at how you actually create and work with Promises.
+

@@ -1,0 +1,40 @@
+﻿1
+00:00:00,000 --> 00:00:03,040
+Good job! You are now ready for lesson three.
+
+2
+00:00:03,040 --> 00:00:06,150
+But before you move on, let's recap what you learned in this lesson.
+
+3
+00:00:06,150 --> 00:00:10,705
+In this lesson,we covered a new way to write functions - the arrow function.
+
+4
+00:00:10,705 --> 00:00:12,032
+We also looked at how you can use
+
+5
+00:00:12,032 --> 00:00:15,865
+default function parameters to pass default values to functions.
+
+6
+00:00:15,865 --> 00:00:18,000
+And finally, we wrapped it up with JavaScript classes.
+
+7
+00:00:18,000 --> 00:00:19,679
+Simulated through functions.
+
+8
+00:00:19,679 --> 00:00:21,969
+Right, simulated through functions.
+
+9
+00:00:21,969 --> 00:00:24,029
+In the next lesson, you will explore the latest set of
+
+10
+00:00:24,030 --> 00:00:27,000
+built-ins that are now available to you in JavaScript.
+

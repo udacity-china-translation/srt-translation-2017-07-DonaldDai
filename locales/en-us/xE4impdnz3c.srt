@@ -1,0 +1,48 @@
+﻿1
+00:00:00,000 --> 00:00:02,484
+Nice work completing lesson three.
+
+2
+00:00:02,484 --> 00:00:06,125
+At this point you've seen almost everything there is to see in ES6.
+
+3
+00:00:06,125 --> 00:00:08,199
+But we still have one more lesson.
+
+4
+00:00:08,199 --> 00:00:11,519
+You'd think that with all the advancements to Javascript that you'd be able
+
+5
+00:00:11,519 --> 00:00:15,015
+to start using every new feature in ES6, right now.
+
+6
+00:00:15,015 --> 00:00:17,250
+But that's not really the case.
+
+7
+00:00:17,250 --> 00:00:19,859
+Sometimes there are situations where browsers haven't
+
+8
+00:00:19,859 --> 00:00:22,888
+quite caught up to the latest and greatest features in Javascript.
+
+9
+00:00:22,888 --> 00:00:27,600
+In Lesson 4 you'll see how in spite of this you can still write ES6 code that
+
+10
+00:00:27,600 --> 00:00:29,570
+is future proof for when browsers catch
+
+11
+00:00:29,570 --> 00:00:33,115
+up but will still work for browsers that aren't quite up to snuff.
+
+12
+00:00:33,115 --> 00:00:36,000
+Let's put what you've learned to good use in the next lesson.
+

@@ -1,0 +1,145 @@
+1
+00:00:01,100 --> 00:00:05,419
+So with all
+of this CDing around,
+
+2
+00:00:05,419 --> 00:00:08,118
+it's possible to
+get kind of lost.
+
+3
+00:00:08,118 --> 00:00:10,279
+Depending on your
+system, the shell prompt
+
+4
+00:00:10,279 --> 00:00:13,589
+might or might not tell you
+what directory you're in,
+
+5
+00:00:13,589 --> 00:00:16,289
+but there is a command
+that will always tell you,
+
+6
+00:00:16,289 --> 00:00:18,629
+the pwd command.
+
+
+7
+00:00:18,629 --> 00:00:21,989
+That stands for Print
+Working Directory.
+
+8
+00:00:21,989 --> 00:00:25,049
+The working directory is another
+word for whatever directory
+
+9
+00:00:25,050 --> 00:00:27,179
+the shell is
+currently looking at.
+
+10
+00:00:27,179 --> 00:00:30,269
+It's the default directory
+for commands like ls.
+
+11
+00:00:30,269 --> 00:00:32,219
+And it's the default
+place that shell commands
+
+12
+00:00:32,219 --> 00:00:34,109
+will look for data files.
+
+
+13
+00:00:34,109 --> 00:00:35,909
+You'll notice that the
+names of directories
+
+14
+00:00:35,909 --> 00:00:38,309
+are separated by slashes.
+
+
+15
+00:00:38,310 --> 00:00:41,640
+The Unix system uses the forward
+slash, not the backslash,
+
+16
+00:00:41,640 --> 00:00:43,770
+to separate the
+names of directories.
+
+17
+00:00:43,770 --> 00:00:47,280
+Forward slash is the same one
+you've seen in URLs on the web.
+
+18
+00:00:47,280 --> 00:00:50,550
+This whole string, composed
+of several directory
+
+19
+00:00:50,549 --> 00:00:54,939
+names separated by
+slashes, is called a path.
+
+20
+00:00:54,939 --> 00:00:57,619
+There are a few special
+directory names.
+
+21
+00:00:57,619 --> 00:01:00,349
+You've seen dot,
+dot before, it means
+
+22
+00:01:00,350 --> 00:01:02,000
+the parent directory,
+the directory
+
+23
+00:01:02,000 --> 00:01:04,189
+that this directory is inside.
+
+
+24
+00:01:04,189 --> 00:01:08,569
+There's also dot, just
+means the current directory.
+
+25
+00:01:08,569 --> 00:01:12,049
+ls dot is just the same as ls.
+
+
+26
+00:01:12,049 --> 00:01:15,230
+And the shell also has a
+shortcut, the tilde, which
+
+27
+00:01:15,230 --> 00:01:17,900
+stands for my home directory.
+
+
+28
+00:01:17,900 --> 00:01:21,140
+Like regardless of what
+directory your CD'd into,
+
+29
+00:01:21,140 --> 00:01:24,849
+ls tilde will list
+your home directory.
+

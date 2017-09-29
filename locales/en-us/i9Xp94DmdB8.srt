@@ -1,0 +1,115 @@
+1
+00:00:00,000 --> 00:00:03,390
+When you look through your files in a graphical interface,
+
+2
+00:00:03,390 --> 00:00:05,145
+such as the Macintosh finder,
+
+3
+00:00:05,145 --> 00:00:06,985
+or the Windows file explorer,
+
+4
+00:00:06,985 --> 00:00:09,570
+a folder window shows you the files in
+
+5
+00:00:09,570 --> 00:00:12,465
+subdirectories in a particular folder or directory.
+
+6
+00:00:12,465 --> 00:00:17,485
+Like, here's the downloads directory in this computer for the downloads folder.
+
+7
+00:00:17,485 --> 00:00:20,340
+Directory in a folder are basically the same thing.
+
+8
+00:00:20,340 --> 00:00:23,015
+But in the shell, we'll use the word directory.
+
+9
+00:00:23,015 --> 00:00:26,290
+To list the contents of a directory in the shell,
+
+10
+00:00:26,290 --> 00:00:28,682
+we can use the command LS.
+
+11
+00:00:28,682 --> 00:00:32,555
+LS is a super shortened version of the word list.
+
+12
+00:00:32,555 --> 00:00:34,270
+When you start the shell,
+
+13
+00:00:34,270 --> 00:00:37,130
+it usually starts out looking at your home directory.
+
+14
+00:00:37,130 --> 00:00:39,330
+If you just run LS by itself,
+
+15
+00:00:39,330 --> 00:00:42,780
+it will print the contents of the current directory.
+
+16
+00:00:42,780 --> 00:00:44,920
+To list another directory, say,
+
+17
+00:00:44,920 --> 00:00:50,250
+Downloads, you can type LS followed by the name of that directory.
+
+18
+00:00:50,250 --> 00:00:54,075
+You can also change what directory the shell is looking at.
+
+19
+00:00:54,075 --> 00:00:56,095
+The command for this is CD,
+
+20
+00:00:56,095 --> 00:00:58,170
+which stands for Change Directory.
+
+21
+00:00:58,170 --> 00:01:01,690
+After you CD into a particular directory,
+
+22
+00:01:01,690 --> 00:01:04,860
+LS by itself will show the contents of that directory.
+
+23
+00:01:04,860 --> 00:01:06,295
+That's something you'll see a lot.
+
+24
+00:01:06,295 --> 00:01:11,280
+Many shell commands default to interacting with the current directory.
+
+25
+00:01:11,280 --> 00:01:13,110
+If you want to go back a directory,
+
+26
+00:01:13,110 --> 00:01:16,100
+you can do that with the special directory name dot dot,
+
+27
+00:01:16,100 --> 00:01:19,080
+which is also called the Parent Directory and
+
+28
+00:01:19,080 --> 00:01:22,380
+the semi-colon lets you write two commands on the same line.
+
+29
+00:01:22,380 --> 00:01:25,000
+The shell will just run them in order.

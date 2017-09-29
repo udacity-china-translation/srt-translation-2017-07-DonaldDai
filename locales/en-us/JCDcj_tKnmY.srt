@@ -1,0 +1,36 @@
+﻿1
+00:00:00,000 --> 00:00:05,089
+You've probably come across or had to use the mystical "this" keyword.
+
+2
+00:00:05,089 --> 00:00:06,870
+This can be pretty confusing since it's
+
+3
+00:00:06,870 --> 00:00:10,530
+a dynamic value that's different depending on how a function is called.
+
+4
+00:00:10,529 --> 00:00:13,649
+Sneak peek with regular functions,
+
+5
+00:00:13,650 --> 00:00:16,705
+the value of "this" depends on how the function is called.
+
+6
+00:00:16,704 --> 00:00:18,203
+While with arrow functions,
+
+7
+00:00:18,204 --> 00:00:21,969
+it depends on where that function is located in the code.
+
+8
+00:00:21,969 --> 00:00:24,695
+Let's briefly review how the "this" keyword works
+
+9
+00:00:24,695 --> 00:00:28,000
+in general and then see how it works in arrow functions.
+

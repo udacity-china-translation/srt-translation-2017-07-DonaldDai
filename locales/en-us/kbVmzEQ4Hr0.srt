@@ -1,0 +1,100 @@
+﻿1
+00:00:00,000 --> 00:00:02,710
+Symbols are the latest addition to the list of
+
+2
+00:00:02,710 --> 00:00:05,929
+primitive data types available to us in JavaScript.
+
+3
+00:00:05,929 --> 00:00:09,294
+Previously, JavaScript only had numbers, strings,
+
+4
+00:00:09,294 --> 00:00:14,480
+booleans, null, and undefined as its primitives but now symbols have entered the mix.
+
+5
+00:00:14,480 --> 00:00:16,750
+James, what's a symbol?
+
+6
+00:00:16,750 --> 00:00:18,984
+Well, a symbol is just a unique identifier.
+
+7
+00:00:18,984 --> 00:00:22,794
+It's most often used to uniquely identify properties within an object.
+
+8
+00:00:22,795 --> 00:00:26,050
+For example, let's assume this ball is an object.
+
+9
+00:00:26,050 --> 00:00:27,339
+Richard, can you give me some fruit?
+
+10
+00:00:27,339 --> 00:00:29,403
+Sure.
+
+11
+00:00:29,403 --> 00:00:32,240
+Okay. So this apple,
+
+12
+00:00:32,240 --> 00:00:35,125
+and this orange, and this banana, to the bowl.
+
+13
+00:00:35,125 --> 00:00:40,670
+Now keep in mind, these fruits are also objects but now they're properties of this ball.
+
+14
+00:00:40,670 --> 00:00:42,445
+Now here's where things get interesting.
+
+15
+00:00:42,445 --> 00:00:44,944
+Can you hand me another banana?
+
+16
+00:00:44,944 --> 00:00:47,060
+So if I add this banana to the bowl,
+
+17
+00:00:47,060 --> 00:00:49,384
+can you see what the problem is?
+
+18
+00:00:49,384 --> 00:00:53,270
+Richard, hand me a banana from the bowl.
+
+19
+00:00:53,270 --> 00:00:54,750
+Which one?
+
+20
+00:00:54,750 --> 00:01:00,268
+Exactly. I need a way to uniquely identify this banana, from this banana.
+
+21
+00:01:00,268 --> 00:01:03,545
+In code, I can do something like represent this banana,
+
+22
+00:01:03,545 --> 00:01:06,969
+as banana one and this banana, as banana two.
+
+23
+00:01:06,969 --> 00:01:10,168
+But what happens when I keep adding more bananas to the bowl?
+
+24
+00:01:10,168 --> 00:01:12,795
+I think you see where we're going with this.
+
+25
+00:01:12,795 --> 00:01:17,000
+Thankfully, with the addition of symbols in ES6, we've got a solution.
+

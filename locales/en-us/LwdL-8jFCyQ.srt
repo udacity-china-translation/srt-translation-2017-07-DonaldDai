@@ -1,0 +1,56 @@
+﻿1
+00:00:00,740 --> 00:00:03,014
+You're a pro at JavaScript,
+
+2
+00:00:03,015 --> 00:00:05,749
+but that does not mean you can just "kick back and coast."
+
+3
+00:00:05,748 --> 00:00:09,439
+These new additions in ES6 have brought a major change to the language.
+
+4
+00:00:09,439 --> 00:00:11,099
+You can not just ignore them in bank on
+
+5
+00:00:11,099 --> 00:00:14,605
+your existing knowledge of a now behind-the-times technology.
+
+6
+00:00:14,605 --> 00:00:16,859
+You have got to get up, dig into the features,
+
+7
+00:00:16,859 --> 00:00:19,679
+read the specification, follow some tutorials,
+
+8
+00:00:19,679 --> 00:00:22,015
+maybe even write some of your own.
+
+9
+00:00:22,015 --> 00:00:25,440
+The Web is an evolving platform and you need to evolve with it.
+
+10
+00:00:25,440 --> 00:00:27,929
+Imagine being stuck on old horrible equipment when
+
+11
+00:00:27,929 --> 00:00:31,149
+there are newer nicer tools available for you to use.
+
+12
+00:00:31,149 --> 00:00:33,479
+You now know how JavaScript language improvements are
+
+13
+00:00:33,479 --> 00:00:36,344
+made and where to find browser support for them.
+
+14
+00:00:36,344 --> 00:00:38,350
+You have got the tools. You just need to use them.
+

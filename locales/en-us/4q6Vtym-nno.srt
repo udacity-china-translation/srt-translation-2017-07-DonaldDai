@@ -1,0 +1,163 @@
+﻿1
+00:00:00,500 --> 00:00:03,220
+OK so regardless of
+what system you're on,
+
+2
+00:00:03,220 --> 00:00:06,030
+you're going to want to open
+up a terminal window now.
+
+3
+00:00:06,030 --> 00:00:09,660
+On Windows, that's the Git
+Bash you've been working with.
+
+4
+00:00:09,660 --> 00:00:13,560
+On the Mac, you'll find
+the terminal program
+
+5
+00:00:13,560 --> 00:00:16,140
+in the Utilities folder.
+
+6
+00:00:16,140 --> 00:00:17,850
+On a Linux system,
+the terminal program
+
+7
+00:00:17,850 --> 00:00:21,600
+is usually pretty easy to find,
+but can be in different places.
+
+8
+00:00:21,600 --> 00:00:24,720
+It doesn't matter which terminal
+program you end up using,
+
+9
+00:00:24,719 --> 00:00:26,820
+the terminal is just an
+interface to the Shell
+
+10
+00:00:26,820 --> 00:00:28,445
+and to other command
+line programs that
+
+11
+00:00:28,445 --> 00:00:29,760
+will be running inside it.
+
+12
+00:00:29,760 --> 00:00:31,920
+Kind of like how your web
+browser is an interface
+
+13
+00:00:31,920 --> 00:00:33,960
+to websites and services.
+
+14
+00:00:33,960 --> 00:00:36,299
+Now, pretty much
+every terminal program
+
+15
+00:00:36,299 --> 00:00:38,459
+has a bunch of settings
+that you can mess around
+
+16
+00:00:38,460 --> 00:00:42,277
+with to change the fonts,
+and colors, and so on.
+
+17
+00:00:42,277 --> 00:00:44,609
+Now, we're not going to do a
+lot of that in this course.
+
+18
+00:00:44,609 --> 00:00:46,424
+But do feel free to
+adjust them to whatever
+
+19
+00:00:46,424 --> 00:00:48,719
+is comfortable for you.
+
+20
+00:00:48,719 --> 00:00:51,149
+Now something to
+keep in mind, you
+
+21
+00:00:51,149 --> 00:00:53,859
+can have multiple
+terminals open at once.
+
+22
+00:00:53,859 --> 00:00:57,329
+In fact, you can have any number
+of terminals open at once.
+
+23
+00:00:57,329 --> 00:00:59,879
+Each one of them has its
+own instance of the Shell--
+
+24
+00:00:59,880 --> 00:01:02,830
+a separate process
+on your computer.
+
+25
+00:01:02,829 --> 00:01:05,039
+So if you happen to do
+something in one terminal that
+
+26
+00:01:05,040 --> 00:01:07,920
+freezes or breaks it,
+well, you can always
+
+27
+00:01:07,920 --> 00:01:09,829
+just use another one.
+
+28
+00:01:09,829 --> 00:01:12,049
+As you go through this
+course, another thing
+
+29
+00:01:12,049 --> 00:01:14,819
+that will help you is to
+look things up online.
+
+30
+00:01:14,819 --> 00:01:16,849
+There is a wealth of
+information about the Unix
+
+31
+00:01:16,849 --> 00:01:18,140
+shell on the web.
+
+32
+00:01:18,140 --> 00:01:20,359
+If you're wondering
+how to do something
+
+33
+00:01:20,359 --> 00:01:23,310
+or looking for a command that
+you've never seen before,
+
+34
+00:01:23,310 --> 00:01:25,600
+use your favorite search engine.
+

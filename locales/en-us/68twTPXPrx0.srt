@@ -1,0 +1,78 @@
+﻿1
+00:00:00,710 --> 00:00:02,509
+So one of the cool
+things about the shell
+
+2
+00:00:02,509 --> 00:00:04,279
+is there's always more to learn.
+
+3
+00:00:04,280 --> 00:00:05,780
+I've been using it
+for 20 plus years
+
+4
+00:00:05,780 --> 00:00:07,403
+and there are still
+features I've never
+
+5
+00:00:07,403 --> 00:00:09,800
+gotten around to using, and
+people keep writing new ones,
+
+6
+00:00:09,800 --> 00:00:10,669
+too.
+
+7
+00:00:10,669 --> 00:00:12,410
+As you grow as a
+developer, you'll
+
+8
+00:00:12,410 --> 00:00:13,939
+probably build up
+a shell profile
+
+9
+00:00:13,939 --> 00:00:15,799
+that works well for
+you, just as you
+
+10
+00:00:15,800 --> 00:00:18,940
+customized other development
+tools such as your text editor.
+
+11
+00:00:18,940 --> 00:00:20,690
+Now there are a heck
+of a lot of resources
+
+12
+00:00:20,690 --> 00:00:23,330
+on the web full of tips
+and tricks about the shell.
+
+13
+00:00:23,329 --> 00:00:25,489
+Secret incantations
+and general magic
+
+14
+00:00:25,489 --> 00:00:28,159
+for configuring and accelerating
+your shell environment.
+
+15
+00:00:28,160 --> 00:00:30,079
+I've put just a few
+of them on this page.
+
+16
+00:00:30,079 --> 00:00:33,399
+Now have fun with it,
+and keep learning.
+

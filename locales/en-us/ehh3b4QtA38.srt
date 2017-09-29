@@ -1,0 +1,48 @@
+1
+00:00:00,140 --> 00:00:03,840
+In one sentence,
+how would you describe a design sprint?
+
+2
+00:00:03,840 --> 00:00:07,140
+>> In sprints,
+you either win or you learn.
+
+3
+00:00:07,140 --> 00:00:10,190
+You win when you get to solve
+your project quickly and
+
+4
+00:00:10,190 --> 00:00:13,830
+you get to launch and
+have customers love your work and
+
+5
+00:00:13,830 --> 00:00:17,060
+you learn if you achieve anything but
+that.
+
+6
+00:00:17,060 --> 00:00:18,850
+When your customers
+don't like your project,
+
+7
+00:00:18,850 --> 00:00:20,510
+you're learning about it quickly.
+
+8
+00:00:20,510 --> 00:00:23,910
+And if there's problems with your
+solution that would prevent your team
+
+9
+00:00:23,910 --> 00:00:27,190
+from being able to execute it or
+they don't serve the business cause,
+
+10
+00:00:27,190 --> 00:00:30,580
+you get to learn within two to
+five days and that is saving time.

@@ -1,0 +1,80 @@
+﻿1
+00:00:00,000 --> 00:00:04,352
+Let's first convert this function into a class.
+
+2
+00:00:04,352 --> 00:00:08,524
+Everything inside the constructor function
+
+3
+00:00:08,525 --> 00:00:13,490
+is now placed inside a method with the name constructor.
+
+4
+00:00:13,490 --> 00:00:15,919
+This constructor method will automatically run when
+
+5
+00:00:15,919 --> 00:00:18,859
+a new object is constructed from this class.
+
+6
+00:00:18,859 --> 00:00:21,214
+If any data is needed to create the object,
+
+7
+00:00:21,214 --> 00:00:24,195
+then it needs to be included here.
+
+8
+00:00:24,195 --> 00:00:27,285
+So this takes care of creating an object.
+
+9
+00:00:27,285 --> 00:00:33,399
+Now the methods that all objects inherit are placed inside the class.
+
+10
+00:00:33,399 --> 00:00:38,765
+startEngines exists on the prototype explicitly in the pre-class way of writing it.
+
+11
+00:00:38,765 --> 00:00:40,835
+Now, it appears inside the class,
+
+12
+00:00:40,835 --> 00:00:43,370
+but the functionality is exactly the same.
+
+13
+00:00:43,369 --> 00:00:48,379
+Also, it looks like startEngines and this constructor method are the same kind of method,
+
+14
+00:00:48,380 --> 00:00:51,875
+but the constructor method is not on the prototype, it's a new,
+
+15
+00:00:51,875 --> 00:00:56,744
+special method that exists in a class and is used to initialize new objects.
+
+16
+00:00:56,744 --> 00:01:01,064
+To drive this home, the functionality of these two is exactly the same.
+
+17
+00:01:01,064 --> 00:01:04,890
+This class syntax is just a nicer way of writing this.
+
+18
+00:01:04,890 --> 00:01:11,194
+In fact, we create new objects in exactly the same way with this new class syntax.
+
+19
+00:01:11,194 --> 00:01:13,564
+If you already understand prototypal inheritance,
+
+20
+00:01:13,564 --> 00:01:18,000
+then you already have a good understanding of how class and class methods work.
+

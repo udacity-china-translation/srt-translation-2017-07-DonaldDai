@@ -1,0 +1,24 @@
+﻿1
+00:00:00,000 --> 00:00:02,370
+Presenter 1: That's it for lesson one. We've covered
+
+2
+00:00:02,370 --> 00:00:04,814
+everything from let and const to iterators,
+
+3
+00:00:04,815 --> 00:00:07,020
+to the new spread operator, and rest parameter.
+
+4
+00:00:07,019 --> 00:00:08,308
+Presenter 2: In lesson two,
+
+5
+00:00:08,308 --> 00:00:11,299
+we'll dive into all of the updates that have been made to functions.
+
+6
+00:00:11,300 --> 00:00:12,000
+Presenter 1: See you there.
+

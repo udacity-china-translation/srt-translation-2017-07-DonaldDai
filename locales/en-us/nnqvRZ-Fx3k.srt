@@ -1,0 +1,188 @@
+﻿1
+00:00:00,499 --> 00:00:03,430
+When you start up a
+terminal, what do you see?
+
+2
+00:00:03,430 --> 00:00:05,759
+Usually, you see a Shell prompt.
+
+3
+00:00:05,759 --> 00:00:09,089
+But what it says will differ
+from system to system.
+
+4
+00:00:09,089 --> 00:00:12,539
+Like, the one that comes
+with Git Bash for Windows
+
+5
+00:00:12,539 --> 00:00:14,489
+will look like this.
+
+6
+00:00:14,490 --> 00:00:17,920
+But the one over on the
+Mac will look like that.
+
+7
+00:00:17,920 --> 00:00:20,950
+Here, this one shows the name
+of the computer I'm using,
+
+8
+00:00:20,949 --> 00:00:23,910
+which is flexo, the current
+working directory, which
+
+9
+00:00:23,910 --> 00:00:27,089
+is the home directory,
+abbreviated tilde, and the name
+
+10
+00:00:27,089 --> 00:00:29,940
+of the user I'm logged
+in as, which is student.
+
+11
+00:00:29,940 --> 00:00:31,920
+But there's a whole
+bunch of information
+
+12
+00:00:31,920 --> 00:00:34,920
+that you can put in
+the Shell prompt.
+
+13
+00:00:34,920 --> 00:00:37,980
+This here is from the Bash
+manual, which unfortunately
+
+14
+00:00:37,979 --> 00:00:39,989
+doesn't get installed
+in Git Bash for Windows,
+
+15
+00:00:39,990 --> 00:00:42,270
+but you can look it up online.
+
+16
+00:00:42,270 --> 00:00:45,090
+In order to use any of
+these or many other codes
+
+17
+00:00:45,090 --> 00:00:46,950
+that you can put in
+there, you put them
+
+18
+00:00:46,950 --> 00:00:49,679
+in the PS1 Shell variable.
+
+19
+00:00:49,679 --> 00:00:51,369
+And where would you do that?
+
+20
+00:00:51,369 --> 00:00:53,599
+Well, in your .bash
+profile, usually--
+
+21
+00:00:53,600 --> 00:00:56,670
+or .bashrc if you're on Linux,
+or if you did that trick to get
+
+22
+00:00:56,670 --> 00:00:58,600
+it to run there as well.
+
+23
+00:00:58,600 --> 00:01:01,439
+So here's a .bash profile
+containing a complicated PS1
+
+24
+00:01:01,439 --> 00:01:02,528
+prompt.
+
+25
+00:01:02,529 --> 00:01:03,570
+Let's see what that does.
+
+26
+00:01:07,469 --> 00:01:10,709
+Oh wow, now this prompt is
+almost as colorful as the one
+
+27
+00:01:10,709 --> 00:01:12,299
+over on Windows.
+
+28
+00:01:12,299 --> 00:01:15,090
+And it has a little clock in
+it, which is pretty handy.
+
+29
+00:01:15,090 --> 00:01:16,980
+So what do people put in PS1?
+
+30
+00:01:16,980 --> 00:01:19,454
+Well, a lot of developers
+have a display information
+
+31
+00:01:19,453 --> 00:01:21,869
+about the current state of the
+project they're working on.
+
+32
+00:01:21,870 --> 00:01:24,750
+You'll see more about
+that in a later course.
+
+33
+00:01:24,750 --> 00:01:27,209
+Me, I usually keep
+it pretty simple.
+
+34
+00:01:27,209 --> 00:01:29,039
+This complicated one,
+I actually came up
+
+35
+00:01:29,040 --> 00:01:31,380
+with using a site called
+bashrcgenerator.com.
+
+36
+00:01:31,379 --> 00:01:34,939
+Especially when I'm
+building courses
+
+37
+00:01:34,939 --> 00:01:37,829
+and I don't want to distract
+you with what directory I'm in,
+
+38
+00:01:37,829 --> 00:01:41,030
+sometimes I'll just set
+PS1 to a single dollar
+
+39
+00:01:41,030 --> 00:01:42,730
+sign followed by a space.
+
+40
+00:01:42,730 --> 00:01:45,100
+I'm going to keep it simple.
+

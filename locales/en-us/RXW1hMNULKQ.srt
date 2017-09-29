@@ -1,0 +1,43 @@
+1
+00:00:00,240 --> 00:00:03,570
+In this lesson you learned
+about your target users and
+
+2
+00:00:03,570 --> 00:00:06,240
+how to build great experience for them.
+
+3
+00:00:06,240 --> 00:00:09,310
+>> A great user experience
+is really good design.
+
+4
+00:00:09,310 --> 00:00:13,020
+It's something that is functional and
+emotionally satisfying.
+
+5
+00:00:13,020 --> 00:00:16,820
+I showed you many examples of the
+components that go into a great design.
+
+6
+00:00:16,820 --> 00:00:19,580
+There's so much more to learn than
+mentioned here, and we hope you have
+
+7
+00:00:19,580 --> 00:00:23,010
+some basics for what to think about
+in the design of your own product.
+
+8
+00:00:23,010 --> 00:00:26,230
+>> In the next lesson,
+you will learn how to use
+
+9
+00:00:26,230 --> 00:00:29,640
+Zionsprints to test the riskiest
+assumptions in your product.

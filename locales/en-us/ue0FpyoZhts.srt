@@ -1,0 +1,44 @@
+﻿1
+00:00:00,000 --> 00:00:02,495
+Welcome back! In this lesson,
+
+2
+00:00:02,495 --> 00:00:04,676
+we will prepare you for deploying ES6
+
+3
+00:00:04,676 --> 00:00:07,041
+in the ever changing environment that is in the Web.
+
+4
+00:00:07,041 --> 00:00:09,755
+Basically, the web had a beginning,
+
+5
+00:00:09,755 --> 00:00:11,190
+but it won't have an end.
+
+6
+00:00:11,189 --> 00:00:12,679
+As new technology comes out,
+
+7
+00:00:12,679 --> 00:00:15,053
+it won't be supported by older browsers.
+
+8
+00:00:15,053 --> 00:00:18,568
+And this can make it challenging when you want to work with ES6.
+
+9
+00:00:18,568 --> 00:00:20,528
+How are you supposed to write ES6,
+
+10
+00:00:20,527 --> 00:00:22,459
+but still support older browsers?
+
+11
+00:00:22,460 --> 00:00:24,310
+Well, let's take a look.
+

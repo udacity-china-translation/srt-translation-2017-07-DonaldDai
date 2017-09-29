@@ -1,0 +1,48 @@
+﻿1
+00:00:00,000 --> 00:00:03,240
+Remember that a polyfill is used to fill a hole
+
+2
+00:00:03,240 --> 00:00:06,690
+in a browser that doesn't yet support the native feature.
+
+3
+00:00:06,690 --> 00:00:11,935
+This polyfill start to check to see if the native startsWith method actually exists.
+
+4
+00:00:11,935 --> 00:00:14,429
+Why? Because if it does exist then
+
+5
+00:00:14,429 --> 00:00:17,530
+we don't want to override the native version with this one.
+
+6
+00:00:17,530 --> 00:00:19,275
+So if it doesn't exist,
+
+7
+00:00:19,274 --> 00:00:23,754
+then the browser running this polyfill will then run all of this code.
+
+8
+00:00:23,754 --> 00:00:27,649
+This adds a new method to Strings.prototype object.
+
+9
+00:00:27,649 --> 00:00:30,479
+The function defaults to the position indicated by
+
+10
+00:00:30,480 --> 00:00:35,424
+the second argument that's passed in or it'll be the first character of the string.
+
+11
+00:00:35,424 --> 00:00:38,214
+Then it just returns true or false.
+
+12
+00:00:38,215 --> 00:00:42,780
+If the string that's passed in is the same as the string that we're looking at.
+

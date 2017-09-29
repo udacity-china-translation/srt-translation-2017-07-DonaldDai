@@ -1,0 +1,52 @@
+﻿1
+00:00:00,000 --> 00:00:04,410
+Congratulations! You've made it to the end of this course on ES6.
+
+2
+00:00:04,410 --> 00:00:07,470
+You mean ES2015, right? Sure, whatever.
+
+3
+00:00:07,469 --> 00:00:11,248
+Look, you've made it to the end of this course on the future of JavaScript.
+
+4
+00:00:11,249 --> 00:00:15,420
+Before you go, let's not forget about the things you've learned during this course.
+
+5
+00:00:15,419 --> 00:00:17,190
+In lesson one, you learned about
+
+6
+00:00:17,190 --> 00:00:19,920
+the most recent syntax additions to the JavaScript language.
+
+7
+00:00:19,920 --> 00:00:22,225
+In lesson two, you discovered
+
+8
+00:00:22,225 --> 00:00:25,830
+new ways for writing functions and how to create JavaScript classes.
+
+9
+00:00:25,829 --> 00:00:30,539
+In lesson three, you were exposed to the latest built-ins provided to you in ES6.
+
+10
+00:00:30,539 --> 00:00:31,969
+And, in lesson four,
+
+11
+00:00:31,969 --> 00:00:37,097
+we wrapped it up by showing you how to incorporate ES6 into your next JavaScript project.
+
+12
+00:00:37,097 --> 00:00:40,140
+We hope you found this course to be insightful and it will inspire
+
+13
+00:00:40,140 --> 00:00:44,119
+you to start using ES6 in whatever projects you work on in the future.
+

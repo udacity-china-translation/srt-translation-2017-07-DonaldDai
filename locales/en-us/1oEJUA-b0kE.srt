@@ -1,0 +1,63 @@
+﻿1
+00:00:00,499 --> 00:00:04,919
+So the command that we're
+looking for starts with curl,
+
+2
+00:00:04,919 --> 00:00:09,250
+and it ends with the tinyurl.com
+URL that we were talking about.
+
+3
+00:00:11,839 --> 00:00:15,830
+But before that, we want
+to follow redirects,
+
+4
+00:00:15,830 --> 00:00:19,579
+and we want to save
+it as dictionary.txt.
+
+5
+00:00:19,579 --> 00:00:22,159
+See that little progress meter.
+
+6
+00:00:22,160 --> 00:00:23,696
+And there we go.
+
+7
+00:00:23,696 --> 00:00:25,279
+By the way, you might
+notice that I've
+
+8
+00:00:25,280 --> 00:00:27,679
+been putting single quotes
+around all these URLs.
+
+9
+00:00:27,679 --> 00:00:30,019
+The reason for that
+is that a lot of URLs
+
+10
+00:00:30,019 --> 00:00:32,600
+have special characters in them,
+such as the ampersand sign,
+
+11
+00:00:32,600 --> 00:00:34,849
+and so it's a good idea to
+get in the habit of putting
+
+12
+00:00:34,848 --> 00:00:37,849
+single quotes around them, even
+if in these particular cases
+
+13
+00:00:37,850 --> 00:00:40,689
+it would work fine
+just to not do that.
+

@@ -1,0 +1,210 @@
+﻿1
+00:00:01,381 --> 00:00:03,129
+Actually, a little
+programming language.
+
+2
+00:00:03,129 --> 00:00:06,660
+And just like JavaScript or
+Python, it has variables.
+
+3
+00:00:06,660 --> 00:00:08,699
+They look a little
+different, though.
+
+4
+00:00:08,699 --> 00:00:12,419
+In the Shell, whenever you
+create or modify a variable,
+
+5
+00:00:12,419 --> 00:00:15,800
+you just give its
+name and an equal sign
+
+6
+00:00:15,800 --> 00:00:18,230
+followed by the value
+that you want it to have.
+
+7
+00:00:18,230 --> 00:00:21,050
+Note, that you can't put any
+spaces around the equal sign.
+
+8
+00:00:21,050 --> 00:00:23,600
+Then when you want to
+refer to the variable,
+
+9
+00:00:23,600 --> 00:00:27,320
+you put a dollar sign
+in front of its name.
+
+10
+00:00:27,320 --> 00:00:29,100
+There are actually
+two different kinds
+
+11
+00:00:29,100 --> 00:00:30,900
+of variables in the Shell.
+
+12
+00:00:30,899 --> 00:00:33,739
+One of them is called
+a Shell variable.
+
+13
+00:00:33,740 --> 00:00:36,469
+The lines and columns
+variables that you saw earlier
+
+14
+00:00:36,469 --> 00:00:37,719
+are this kind.
+
+15
+00:00:37,719 --> 00:00:41,299
+These are just internal to
+the Shell program itself.
+
+16
+00:00:41,299 --> 00:00:44,829
+The other kind is called
+an environment variable.
+
+17
+00:00:44,829 --> 00:00:47,259
+Environment variables
+are shared with programs
+
+18
+00:00:47,259 --> 00:00:48,969
+that you run from
+within the Shell.
+
+19
+00:00:48,969 --> 00:00:51,670
+One environment variable
+that's really important
+
+20
+00:00:51,670 --> 00:00:54,020
+is the Path variable.
+
+21
+00:00:54,020 --> 00:00:56,480
+That tells your system where
+your Program Files are.
+
+22
+00:00:56,479 --> 00:00:59,329
+So when you type a
+command such as ls,
+
+23
+00:00:59,329 --> 00:01:01,519
+it can find the
+program to run it.
+
+24
+00:01:01,520 --> 00:01:06,680
+For instance, on my system
+the ls program is in /bin.ls.
+
+25
+00:01:06,680 --> 00:01:08,810
+So it's in the /bin directory.
+
+26
+00:01:08,810 --> 00:01:12,530
+And the /bin directory is
+here in my path variable.
+
+27
+00:01:12,530 --> 00:01:14,299
+The directories in
+the path variable
+
+28
+00:01:14,299 --> 00:01:16,280
+are separated by colons.
+
+29
+00:01:16,280 --> 00:01:19,430
+And the Shell searches them
+starting with the first one,
+
+30
+00:01:19,430 --> 00:01:21,890
+and then proceeding to
+the right until it finds
+
+31
+00:01:21,890 --> 00:01:23,950
+the command that you entered.
+
+32
+00:01:23,950 --> 00:01:26,450
+And that's how the Shell is
+able to find the ls command when
+
+33
+00:01:26,450 --> 00:01:27,656
+I want to run it.
+
+34
+00:01:27,656 --> 00:01:29,030
+You'll sometimes
+see instructions
+
+35
+00:01:29,030 --> 00:01:31,489
+telling you to add a
+directory to your path
+
+36
+00:01:31,489 --> 00:01:33,739
+so that programs
+in it can be found.
+
+37
+00:01:33,739 --> 00:01:35,809
+To add the new directory
+to the end of your path,
+
+38
+00:01:35,810 --> 00:01:37,430
+you do it like this--
+
+39
+00:01:37,430 --> 00:01:43,150
+PATH=$PATH: and then
+the new directory.
+
+40
+00:01:43,150 --> 00:01:46,120
+But if you do it like this
+right at the Shell prompt,
+
+41
+00:01:46,120 --> 00:01:49,039
+that change will only last
+until you close the Shell.
+
+42
+00:01:49,039 --> 00:01:50,829
+We'll take a look at
+where you do it if you
+
+43
+00:01:50,829 --> 00:01:52,780
+want to keep that change.
+
+44
+00:01:52,780 --> 00:01:55,590
+But first, a couple of quizzes.
+

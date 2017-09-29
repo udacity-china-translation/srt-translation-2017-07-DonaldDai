@@ -1,0 +1,111 @@
+﻿1
+00:00:00,390 --> 00:00:02,040
+You've seen how
+many Shell commands
+
+2
+00:00:02,040 --> 00:00:05,160
+can be given the name of
+a file or a directory,
+
+3
+00:00:05,160 --> 00:00:07,259
+like ls and cd can.
+
+4
+00:00:07,259 --> 00:00:10,050
+But that's not the only thing
+you can tell a Shell command.
+
+5
+00:00:10,050 --> 00:00:12,570
+Many of them also support
+options, or flags,
+
+6
+00:00:12,570 --> 00:00:16,600
+or parameters that turn on extra
+behavior or special features.
+
+7
+00:00:16,600 --> 00:00:19,359
+Here's an example, ls-l--
+
+8
+00:00:19,359 --> 00:00:23,339
+the -l is an option to ls.
+
+9
+00:00:23,339 --> 00:00:26,100
+You can also use it along
+with the name of a directory,
+
+10
+00:00:26,100 --> 00:00:27,720
+like this.
+
+11
+00:00:27,719 --> 00:00:31,259
+And what it does is to print out
+a longer more detailed listing
+
+12
+00:00:31,260 --> 00:00:32,820
+of files.
+
+13
+00:00:32,820 --> 00:00:34,439
+The l is for long.
+
+14
+00:00:34,439 --> 00:00:38,079
+Try it out yourself and see
+what you can find in it.
+
+15
+00:00:38,079 --> 00:00:41,210
+Here's something else you
+can try along with it.
+
+16
+00:00:41,210 --> 00:00:44,270
+The Shell lets you match
+filenames with a pattern.
+
+17
+00:00:44,270 --> 00:00:47,600
+Let's say you want to
+list all the PDF documents
+
+18
+00:00:47,600 --> 00:00:49,789
+in your Documents directory.
+
+19
+00:00:49,789 --> 00:00:53,240
+The way to do this is
+with a star, like this--
+
+20
+00:00:53,240 --> 00:00:54,859
+ls-l Documents/*.pdf.
+
+21
+00:00:57,590 --> 00:01:00,920
+The Shell turns the
+star into a list
+
+22
+00:01:00,920 --> 00:01:05,090
+of all of the files whose
+names match that pattern.
+
+23
+00:01:05,090 --> 00:01:09,409
+In this case, that's all of
+the files whose file names end
+
+24
+00:01:09,409 --> 00:01:10,992
+in .pdf.
+

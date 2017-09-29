@@ -1,0 +1,96 @@
+﻿1
+00:00:00,000 --> 00:00:06,839
+Let's hide the inner workings of these classes to compare how they are constructed.
+
+2
+00:00:07,259 --> 00:00:11,689
+Remember that there's a new special method called the
+
+3
+00:00:11,689 --> 00:00:15,189
+constructor that's run whenever the class is called.
+
+4
+00:00:15,189 --> 00:00:19,214
+It's doing the same thing as this Tree constructor over here.
+
+5
+00:00:19,214 --> 00:00:21,469
+Also remember, that a method name inside of
+
+6
+00:00:21,469 --> 00:00:26,179
+a class definition is the same thing as adding that method to the prototype.
+
+7
+00:00:26,179 --> 00:00:29,929
+That takes care of this base class which looks pretty similar.
+
+8
+00:00:29,929 --> 00:00:33,920
+The bigger difference comes when extending the base class with a subclass.
+
+9
+00:00:33,920 --> 00:00:35,825
+With the older ES5 code,
+
+10
+00:00:35,825 --> 00:00:39,210
+we'd have to create another constructor function.
+
+11
+00:00:39,210 --> 00:00:44,740
+Then we'd have to set the function's prototype to the base classes prototype.
+
+12
+00:00:44,740 --> 00:00:47,704
+And since we've overwritten the original prototype object,
+
+13
+00:00:47,704 --> 00:00:49,640
+we need to remake the connection between
+
+14
+00:00:49,640 --> 00:00:53,314
+the constructor property and the original constructor function.
+
+15
+00:00:53,314 --> 00:00:58,629
+Then we're back to the normal routine of adding methods to the prototype object.
+
+16
+00:00:58,630 --> 00:01:01,490
+Now compare all of the code it took to get these two functions
+
+17
+00:01:01,490 --> 00:01:05,625
+connected and prototype linked to this code over here.
+
+18
+00:01:05,625 --> 00:01:07,909
+It's just another class definition but it uses
+
+19
+00:01:07,909 --> 00:01:12,575
+the extends keyword to connect this Maple class to the base class Tree.
+
+20
+00:01:12,575 --> 00:01:14,484
+Significantly nicer, right?
+
+21
+00:01:14,484 --> 00:01:18,183
+It's also a lot easier to call the base class from the subclass.
+
+22
+00:01:18,183 --> 00:01:21,894
+The ES6 code uses the new super keyword.
+
+23
+00:01:21,894 --> 00:01:29,368
+Well, you have to use .call in the ES5 code and pass this as the first argument.
+
+24
+00:01:35,859 --> 00:01:42,180
+And calling a prototype method also takes a lot less code in the new class format too.
+

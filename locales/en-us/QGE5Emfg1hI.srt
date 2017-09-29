@@ -1,0 +1,64 @@
+﻿1
+00:00:00,000 --> 00:00:03,089
+The projects package.json file lists all
+
+2
+00:00:03,089 --> 00:00:06,165
+of the NPM packages that this project depends on.
+
+3
+00:00:06,165 --> 00:00:09,269
+This project depends on the babel-cli and
+
+4
+00:00:09,269 --> 00:00:14,234
+the es2015 preset that is a collection of all ES6 plugins.
+
+5
+00:00:14,234 --> 00:00:17,160
+So these are the plugins that will be downloaded and installed.
+
+6
+00:00:17,160 --> 00:00:19,170
+Once they're installed, we need to tell
+
+7
+00:00:19,170 --> 00:00:23,085
+the babel-cli which plugins it should use to do the transpiling.
+
+8
+00:00:23,085 --> 00:00:28,804
+The cli will check the bbel rc file for which plugins and presets to use.
+
+9
+00:00:28,804 --> 00:00:32,399
+So the package.json file lists what should be installed and
+
+10
+00:00:32,399 --> 00:00:37,140
+the babel rc file tells babel which plugins to use when it does it's transpiling.
+
+11
+00:00:37,140 --> 00:00:39,329
+Now that babel knows to use this preset,
+
+12
+00:00:39,329 --> 00:00:41,684
+we need to tell to actually transpile the code.
+
+13
+00:00:41,685 --> 00:00:44,340
+To do that we've added a build script that will tell
+
+14
+00:00:44,340 --> 00:00:47,400
+babel to take the files in the ES6 directory,
+
+15
+00:00:47,399 --> 00:00:50,399
+transpile them using that ES2015 preset
+
+16
+00:00:50,399 --> 00:00:54,000
+and then put the transformed code in the ES5 directory.
+

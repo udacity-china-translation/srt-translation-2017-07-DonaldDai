@@ -1,0 +1,52 @@
+﻿1
+00:00:00,000 --> 00:00:02,294
+Welcome back. In this lesson,
+
+2
+00:00:02,294 --> 00:00:05,009
+we're gonna cover updates to functions in the ES6.
+
+3
+00:00:05,009 --> 00:00:08,378
+Functions have changed a lot since the last version of JavaScript.
+
+4
+00:00:08,378 --> 00:00:11,309
+We've now got a new way to write functions called arrow functions,
+
+5
+00:00:11,310 --> 00:00:15,257
+and a new class keyword that lets you create functions as classes.
+
+6
+00:00:15,256 --> 00:00:17,475
+That's not all. In ES6,
+
+7
+00:00:17,475 --> 00:00:19,935
+you can now set up default function parameters.
+
+8
+00:00:19,934 --> 00:00:22,109
+Plus, you can connect different classes
+
+9
+00:00:22,109 --> 00:00:25,259
+together using the new "super" and "extends" keywords.
+
+10
+00:00:25,260 --> 00:00:27,470
+Yeah, there have been a lot of new changes.
+
+11
+00:00:27,469 --> 00:00:30,809
+Well, we better get started before any more changes are added.
+
+12
+00:00:30,809 --> 00:00:32,429
+Wait, what, more changes?
+
+13
+00:00:32,429 --> 00:00:34,519
+The first thing we'll look at is arrow functions.
+
